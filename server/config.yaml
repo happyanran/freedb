@@ -1,0 +1,22 @@
+system:
+  env: dev
+  addr: 8888
+  db-type: mysql
+zap:
+  level: debug
+# 未初始化之前请勿手动修改数据库信息
+mysql:
+  path: ""
+  port: ""
+  config: ""
+  db-name: ""
+  username: ""
+  password: ""
+  max-idle-conns: 10
+  max-open-conns: 100
+  log-mode: ""
+jwt:
+  signing-key: 97f37033-c2d6-11ed-9590-1c98ec14146c
+  expires-time: 3h
+  buffer-time: 1h
+  issuer: freedb
